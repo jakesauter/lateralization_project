@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=head\ pattern
+comment1.target=ListNode\ moveToBack(ListNode,\ java.lang.String)
+comment2.params=head
+comment2.target=ListNode\ getTail(ListNode)
+numComments=3

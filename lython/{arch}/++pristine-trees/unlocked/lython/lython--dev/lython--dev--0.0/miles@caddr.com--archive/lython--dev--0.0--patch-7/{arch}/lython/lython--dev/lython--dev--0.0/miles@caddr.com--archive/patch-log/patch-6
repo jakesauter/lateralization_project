@@ -1,0 +1,12 @@
+Revision: lython--dev--0.0--patch-6
+Archive: miles@caddr.com--archive
+Creator: Miles Egan <miles@caddr.com>
+Date: Mon Dec 22 21:42:24 PST 2003
+Standard-date: 2003-12-23 05:42:24 GMT
+New-files: tests/.arch-ids/macros2.id tests/macros2
+Modified-files: codegen.py lython tests/macros
+New-patches: miles@caddr.com--archive/lython--dev--0.0--patch-6
+Summary: simple macro arg subsitution working
+
+simple macro arg subsitution working
+

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=head
+comment0.target=SinglyLinkedListIterator(ListNode)
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment2.params=
+comment2.target=java.lang.Object\ next()
+comment3.params=
+comment3.target=void\ remove()
+numComments=4

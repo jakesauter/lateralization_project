@@ -1,0 +1,13 @@
+Revision: lython--dev--0.0--patch-7
+Archive: miles@caddr.com--archive
+Creator: Miles Egan <miles@pixar.com>
+Date: Fri Dec 26 12:36:33 PST 2003
+Standard-date: 2003-12-26 20:36:33 GMT
+New-files: .arch-ids/COPYING.id .arch-ids/README.html.id
+    COPYING README.html
+Modified-files: codegen.py lython tests/operators
+New-patches: miles@caddr.com--archive/lython--dev--0.0--patch-7
+Summary: clean up for preview release
+
+clean up for preview release
+

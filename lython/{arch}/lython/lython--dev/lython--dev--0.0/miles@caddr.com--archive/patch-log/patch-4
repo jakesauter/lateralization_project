@@ -1,0 +1,12 @@
+Revision: lython--dev--0.0--patch-4
+Archive: miles@caddr.com--archive
+Creator: Miles Egan <miles@caddr.com>
+Date: Sun Dec 21 13:09:27 PST 2003
+Standard-date: 2003-12-21 21:09:27 GMT
+Modified-files: codegen.py lython tests/macros
+    tests/operators
+New-patches: miles@caddr.com--archive/lython--dev--0.0--patch-4
+Summary: add while loop and allow multi-expr macros
+
+add while loop and allow multi-expr macros
+

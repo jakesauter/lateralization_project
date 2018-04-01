@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=BrowserModel(BrowserView)
+comment1.params=
+comment1.target=void\ back()
+comment2.params=
+comment2.target=void\ forward()
+comment3.params=
+comment3.target=void\ home()
+comment4.params=n
+comment4.target=void\ followLink(int)
+comment5.params=
+comment5.target=boolean\ hasBack()
+comment6.params=
+comment6.target=boolean\ hasForward()
+numComments=7

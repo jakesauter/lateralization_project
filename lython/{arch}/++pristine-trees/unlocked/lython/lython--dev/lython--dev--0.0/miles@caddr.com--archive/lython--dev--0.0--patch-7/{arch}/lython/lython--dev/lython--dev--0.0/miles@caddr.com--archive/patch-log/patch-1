@@ -1,0 +1,14 @@
+Revision: lython--dev--0.0--patch-1
+Archive: miles@caddr.com--archive
+Creator: Miles Egan <miles@caddr.com>
+Date: Sun Dec 21 12:14:10 PST 2003
+Standard-date: 2003-12-21 20:14:10 GMT
+New-files: tests/.arch-ids/classes.id
+    tests/.arch-ids/macros.id tests/classes tests/macros
+Modified-files: codegen.py lython tests/operators
+    {arch}/=tagging-method
+New-patches: miles@caddr.com--archive/lython--dev--0.0--patch-1
+Summary: steps toward macros
+
+steps toward macros
+

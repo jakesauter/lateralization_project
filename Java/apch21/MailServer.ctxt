@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MailServer()
+comment1.params=actor
+comment1.target=void\ signUp(Actor)
+comment2.params=msg
+comment2.target=void\ dispatch(Message)
+numComments=3
