@@ -1,6 +1,6 @@
 # The Pipeline
 
-Put register_and_map_all_data.bash OR register_and_map_all_data.bash (depending on the current shell) in subject directory.
+Put **register_and_map_all_data.bash** OR **register_and_map_all_data.bash** (depending on the current shell) in subject directory.
 
 We also need to make sure that the subject directory is properly set, which can be done by first changing directories to be in the Freesurfer directory (if you use ls, which is the "list files" command you should see s103, s105, … ). Now to set the freesurfer subject directory to the current directory the following command can be executed
 
