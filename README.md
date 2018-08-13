@@ -32,7 +32,7 @@ At this point, everything is set for the searchlight analysis to be run. The one
 
 To run the searchlight analysis, all that needs to be done is in the Matlab terminal
 
->> searchlight_analysis
+    searchlight_analysis
 
 Most of the programs I have written are scripts and not functions so if anything goes wrong, the variables are available to look at in the workspace.
 
@@ -42,11 +42,11 @@ lh_vertex_number   rh_vertex_number  lh_roi_acc  rh_roi_acc  combined_roi_acc
 
 After the searchlight is complete we have the results but they are difficult to understand, so heatmaps are a good way to visualize. To produce accuracy heatmaps, in the Matlab terminal
 
->> generate_accuracy_heatmaps
+    generate_accuracy_heatmaps
 
 and to produce the boost (non-redundancy) heat maps
 
-    >> generate_boost_heat_map
+    generate_boost_heat_map
 
 Now that the searchlight analysis is done and the visualizations are generated, to view the visualizations open tksurfer the subject, hemisphere and surface of interest. This can be done in any directory as tksurfer uses the SUBJECTS_DIR environmental variable to find subjects.
 
@@ -54,11 +54,11 @@ Now that the searchlight analysis is done and the visualizations are generated, 
 
 once tksurfer opens, load the annotation file 
 
-    file >> label >> import annotation >> (in the new window) browse 
+    file --> label --> import annotation --> (in the new window) browse 
 
 to load the accuracy heatmaps select lh/rh.acc_heat_map.annot, to load the boost heatmaps, which is visualized on the left hemisphere select lh.boost_heat_map.annot
 
-    >> ok >> ok 
+    --> ok --> ok 
 
 now the results heat map should be visualized on the surface!
 
@@ -90,11 +90,11 @@ the mapping is determined by the vertex and the voxel having the same functional
 
 **get_vertex_number_from_coord.m** -- function used to get a vertex number from a coordinate. This function takes a coordinate system ( a list of coordinates for each vertex ) and the desired coordinate. This function then finds the coordinate closest to the one desired and returns the index of that coordinate in the coordinate system. This function can be used to find the vertex matching a coordinate on the same surface, e.g. 
 
->> get_vertex_number_from_coord(lh_distance_based_coords, some_coords_on_lh)
+    get_vertex_number_from_coord(lh_distance_based_coords, some_coords_on_lh)
 
 or this function can be used to find corresponding anatomical regions between hemispheres, in example, find the corresponding vertex on the right hemisphere from a vertex number on the left hemisphere
 
->> get_vertex_number-from_coord(rh_distance_based_coords, lh_distance_based_coords(lh_vertex_number, :))
+    get_vertex_number-from_coord(rh_distance_based_coords, lh_distance_based_coords(lh_vertex_number, :))
 
 **identify_top_non_redundant_regions.m** -- script used to generate a matrix (called copy) of the top non-redundant regions. The first column of this matrix contains the region code and the second column of this matrix contains the maximum non-redundancy score found in the region.
 
@@ -132,9 +132,6 @@ Vertices can be correlated with their Talairach or RAS coordinates to get voxels
 
 # Notes
 
-THE COORDINATES SHOWN IN FREESURFER ARE THE COORDINATES OF THE ORIG SURFACE 
-
 The coordinates shown in Freesurfer are the coordinates of the orig surface (?h.orig.asc)
 
 The coordinates from the freesurfer surface files don't need to convert to spherical spherical coordinates as we take cartesian distance, which cannot be done in spherical coordinates
-
