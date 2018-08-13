@@ -63,7 +63,7 @@ to load the accuracy heatmaps select lh/rh.acc_heat_map.annot, to load the boost
 now the results heat map should be visualized on the surface!
 
 
-# API (application programming interface)
+# API 
 
 **binarize_regressor.m** -- function that takes a non_binary, single row conditional regression as an argument, and returns a new binarized regressor, of the size number of conditions by number of time points. A conditional regressor of this form is needed to do feature selection and possibly other operations in the princeton mvpa toolbox.
 
