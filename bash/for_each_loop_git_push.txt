@@ -1,7 +1,0 @@
-#!/bin/bash
-
-list=("atom.txt" "dot.txt")
-for file_name in ${list[*]} 
-do
-  git add $file_name 
-done

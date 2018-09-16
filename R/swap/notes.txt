@@ -1,7 +1,0 @@
-* x <- 2+2
-x = c(1,2,3)
-x + 10   (result is (11, 12, 13))
-matrix(1:28)
-matrix(1:28, ncol=7)
-x -> matrix(3:4) 
-x[r,c] (returns value, or list of values if r or c are left blank)
