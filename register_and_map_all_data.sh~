@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# This script will register each of the 4 functional
+# runs with the left and right hemispheres and map
+# the functional data to them.
+
+# Access the command line arguments, the first
+# command line argument will be the subject name
+subject=$1
+
+# A file counter to allow for the loading of all
+# functional files in a programmatic way
+
+file_counter=1
+run_counter=2
+
+# All of the surfaces use the same registration file
+tkregister2 --s ${subject} --targ mri/orig.mgz --mov ../../Functional_Data/$subject/pb05.${subject}.r02.empty+orig.BRIK --regheader --reg register.dat | grep "subject" 
+
+while [ $file_counter -le 4 ]
+do
+
+  # left hemisphere
+  mri_vol2surf --src ../../Functional_Data/${subject}/pb05.s103.r0${run_counter}.empty+orig.BRIK --out combined_${file_counter}_lh.nii --srcreg register.dat --hemi lh | grep "Writing"
+
+  #right hemisphere
+  mri_vol2surf --src ../../Functional_Data/${subject}/pb05.s103.r0${run_counter}.empty+orig.BRIK --out combined_${file_counter}_rh.nii --srcreg register.dat --hemi rh | grep "Writing"
+
+  file_counter=$((file_counter+1))
+  run_counter=$((run_counter+2))
+done
