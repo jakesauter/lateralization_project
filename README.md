@@ -1,3 +1,5 @@
+![CNBC Poster](https://github.com/jakesauter/lateralization_project/blob/master/CNBC_Poster.pdf)
+
 # Background
 
 This project was done at the Center for the Neural Basis of Cognition (CNBC), a joint lab between Carnegie Mellon University and the University of Pittsburgh. This work was done during an undergraduate summer research internship offered through the previously mentioned universities, supported from a grant from NIH.
