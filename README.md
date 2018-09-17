@@ -1,4 +1,4 @@
-![CNBC Poster](https://github.com/jakesauter/lateralization_project/blob/master/CNBC_Poster.pdf)
+![CNBC Poster](https://github.com/jakesauter/lateralization_project/blob/master/CNBC_Poster.jpg)
 
 # Background
 
