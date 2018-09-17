@@ -1,3 +1,13 @@
+# Background
+
+This project was done at the Center for the Neural Basis of Cognition (CNBC), a joint lab between Carnegie Mellon University and the University of Pittsburgh. This work was done during an undergraduate summer research internship offered through the previously mentioned universities, supported from a grant from NIH.
+
+# Purpose
+
+The purpose of this project is to locate functionally correlating regions of interest (ROIs) (e.g. correlating a brain region in the left hemisphere that responds to faces to a similar region in the right hemisphere that responds similarly). Once these regions are located, respresentation analysis can be performed through Multi-Voxel Pattern Analysis to test for the similarity of representations.
+
+Mult-Voxel representations (fMRI) of ROIs are used as features describing the stimuli that subjects are viewing. These features are used to train a machine learning classifier on the reserved test set of fMRI voxel recodings, generating a testing accuracy score. If the correlating ROI in either hemisphere shows higher classification results, this would show that the particular hemisphere is more active in the task, but this is not what we are mainly interested in. We are interested in if when we combing the corresponding ROI data, we see higher classification results than for either single hemispheric ROI. This would indicate that the representations are both *different* and *informative*.
+
 # The Pipeline
 
 Put **register_and_map_all_data.bash** OR **register_and_map_all_data.bash** (depending on the current shell) in subject directory.
